@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAV BAR */
+
+nav {
+    z-index: 999;
+    background-color: rgba(0,0,0,0.7);
+    text-align: right;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 16px 16px;
+}
+
+nav a:link, nav a:visited {
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: orange; 
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+/* HEADER */
+
+
+header {
+    text-align: center;
+    background: url("../images/cover1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+header h1 {
+    padding-top: 300px;
+    font-size: 60px;
+}
+
+header h2 { 
+    padding-top: 20px;
+}
+
+/* ABOUT */
+
+#about img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+#about h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+#about p {
+    margin-bottom: 10px;
+}
+
+#about td {
+    padding: 50px 50px;
+    font-size: 20px;
+}
+
+/* PROJECTS */
+
+#projects {
+    background: url("../images/cover2.jpg");
+    background-size: cover;
+    padding: 20px 50px;
+}
+
+#projects table{
+    border: 10px;
+}
+
+#projects h1 {
+    margin: 20px auto;
+    font-size: 45px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+#projects tr {
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#projects td {
+    padding: 20px 30px;
+    font-size: 20px;
+}
+
+.project-image {
+    height: 300px;
+    width: 300px;
+    transition: transform 0.5s ease;
+}
+
+.project-image:hover {
+    transform: scale(1.1);
+}
+
+/* FOOTER */ 
+
+footer {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 40px;
+    background: rgba(0,0,0,0.7);
+    color: white;
+}
+
+
